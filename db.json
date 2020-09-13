@@ -1,0 +1,60 @@
+{
+    "furniture" : [
+        {
+            "id" : "1",
+            "name" : "Keeve set",
+            "description" : "Table and dining",
+            "price" : "$590",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/713cLjHmqRL._SX425_.jpg",
+            "rating" : "4.5"
+        },
+        {
+            "id" : "1",
+            "name" : "Keeve set",
+            "description" : "Table and dining",
+            "price" : "$590",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/713cLjHmqRL._SX425_.jpg",
+            "rating" : "4.5"
+        },
+        {
+            "id" : "1",
+            "name" : "Keeve set",
+            "description" : "Table and dining",
+            "price" : "$590",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/713cLjHmqRL._SX425_.jpg",
+            "rating" : "4.5"
+        },
+        {
+            "id" : "1",
+            "name" : "Keeve set",
+            "description" : "Table and dining",
+            "price" : "$590",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/713cLjHmqRL._SX425_.jpg",
+            "rating" : "4.5"
+        },
+        {
+            "id" : "1",
+            "name" : "Keeve set",
+            "description" : "Table and dining",
+            "price" : "$590",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/713cLjHmqRL._SX425_.jpg",
+            "rating" : "4.5"
+        },
+        {
+            "id" : "1",
+            "name" : "Keeve set",
+            "description" : "Table and dining",
+            "price" : "$590",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/713cLjHmqRL._SX425_.jpg",
+            "rating" : "4.5"
+        },
+        {
+            "id" : "1",
+            "name" : "Keeve set",
+            "description" : "Table and dining",
+            "price" : "$590",
+            "image" : "https://images-na.ssl-images-amazon.com/images/I/713cLjHmqRL._SX425_.jpg",
+            "rating" : "4.5"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Project</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class=" flex flex-between">
+    <ul>
+      <li>HOME</li>
+      <li>SHOP</li>
+      <li>MAGAZINE</li>
+    </ul>
+    <div class="nav-right">
+      <input class=" nav-input" />
+      <button>LOGIN</button>
+    </div>
+  </nav>
+  {{!-- side menus --}}
+  {{#if listing }}
+  <div class="flex full-height">
+  <aside>
+    <div class="filter_wrapper flex-col">
+      <div class="filter_title">FILTER BY</div>
+      <ul class="aside_list_wrapper">
+        <li class="filter_item flex flex-between">Collection<i class="fa fa-angle-down"></i></li>
+        <li class="filter_item flex flex-between">Color<i class="fa fa-angle-down"></i></li>
+        <li class="filter_item flex flex-between" >Category<i class="fa fa-angle-down"></i></li>
+      </ul>
+    </div>
+  </aside>
+  {{!-- product listing --}}
+  <section>
+    <div class="card-wrapper">
+        {{#each listing}}
+          <div class="card">
+            <img src="{{image}}"/>
+            <div class="row">{{name}}</div>
+              <div class ="white-bg"></div>
+            <div class="flex flex-between row">
+                <div>{{description}}</div>
+                <div>{{price}}</div>
+            </div>
+            <div class="row">{{rating}}</div>
+            </div>
+      {{/each}}
+    </div>
+  </section>
+  </div>
+  {{/if}}
+    {{#if error }}
+  <div>{{error}}</div>
+  {{/if}}
+</body>
+
+</html>
